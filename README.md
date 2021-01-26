@@ -21,27 +21,6 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 insights-client Project Playbook
 ----------------
 
-Including an example of how to use your project (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - name: Project insights-client
-      hosts: all
-      gather_facts: no
-    
-      tasks:
-      - name: Gather Facts
-        setup:
-    
-      # Some description of the task
-      - name: some role
-        include_role:
-          name: some role
-          apply:
-            tags:
-              - some tag
-        vars:
-          # add variables if needed else delete entire section
-        tags:
-          - always
 
 License
 -------
