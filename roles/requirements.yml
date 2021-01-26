@@ -1,0 +1,5 @@
+---
+# from Love's DevOps Repository
+- src: https://github.com/RedHatInsights/insights-client-role.git
+  name: RedHatInsights.insights-client
+  scm: git

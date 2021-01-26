@@ -1,0 +1,9 @@
+---
+# site.yml for insights-client
+
+- name: Project insights-client
+  hosts: all
+  gather_facts: yes
+
+  roles:
+    - { role: RedHatInsights.insights-client, when: ansible_os_family == 'RedHat' }
